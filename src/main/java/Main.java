@@ -40,6 +40,7 @@ public class Main {
             final String productName = readProductName(scanner);
             final double productPrice = readProductPrice(scanner);
             calculator.addProduct(new Product(productName, productPrice));
+            System.out.println("Товар успешно добавлен");
 
             System.out.printf(
                     "Введите \"%s\", чтобы завершить ввод товаров, или любую строку, чтобы продолжить:%n",
